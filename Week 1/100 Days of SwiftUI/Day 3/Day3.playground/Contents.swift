@@ -87,3 +87,46 @@ let olympics = [
 ]
 
 print(olympics[2012, default: "Unknown"])
+
+var heights = [String: Int]()
+//dictionary = [key: value type]
+heights["Yao Ming"] = 229
+heights["Shaquille O'Neal"] = 216
+heights["LeBron James"] = 206
+
+var archEnemies = [String: String]()
+archEnemies["Batman"] = "The Joker"
+archEnemies["Superman"] = "Lex Luthor"
+archEnemies["Batman"] = "Penguin"
+
+
+//How to use sets for fast data lookup
+//works similarly to arrays, except they don't remember the order you add things and they don't allow duplicates
+let actors = Set(["Denzel Washington", "Tom Cruise", "Nicholas Cage", "Samuel L Jackson"])
+print(actors)
+
+var actorsV = Set<String>()
+actorsV.insert("Denzel Washington")
+actorsV.insert("Tom Cruise")
+actorsV.insert("Nicholas Cage")
+actorsV.insert("Samuel L Jackson")
+print(actorsV)
+//sets store their data in a highly optimized order, runs instantly
+
+
+//How to create and use enums
+var selected = "Monday"
+selected = "Tuesday"
+selected = "January"
+selected = "Friday "
+//enums are a much more efficient method of classification
+
+enum Weekday {
+    case monday, tuesday, wednesday, thursday, friday
+}
+//enums define a whole new type with a particular set of values inside
+
+var day = Weekday.monday
+//data type becomes fixed
+day = .tuesday
+day = .friday
