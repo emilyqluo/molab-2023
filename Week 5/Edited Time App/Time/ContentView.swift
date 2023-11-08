@@ -30,7 +30,6 @@ struct ContentView: View {
             .tabItem {
                 Label("World Clocks", systemImage: "globe")
             }
-            // You can add more tabs/screens here if needed
         }
     }
 }
