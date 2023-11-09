@@ -15,7 +15,7 @@ struct ContentView: View {
         TimeZone(identifier: "Europe/London")!,
         TimeZone(identifier: "Asia/Tokyo")!,
         TimeZone(identifier: "Australia/Sydney")!
-    }
+    ]
 
     var body: some View {
         TabView {
