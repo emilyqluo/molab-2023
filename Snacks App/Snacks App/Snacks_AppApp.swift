@@ -20,4 +20,5 @@ struct Snacks_AppApp: App {
  https://developer.apple.com/documentation/swiftui/food_truck_building_a_swiftui_multiplatform_app
  https://developer.apple.com/tutorials/swiftui/creating-and-combining-views
  https://www.hackingwithswift.com/quick-start/swiftui/how-to-create-and-compose-custom-views
+ https://developer.apple.com/documentation/swiftui/building-layouts-with-stack-views
 */

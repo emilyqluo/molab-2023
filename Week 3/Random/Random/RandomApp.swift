@@ -1,14 +1,14 @@
 //
-//  TestProjectApp.swift
-//  TestProject
+//  RandomApp.swift
+//  Random
 //
-//  Created by Emily Luo on 10/19/23.
+//  Created by Emily Luo on 12/19/23.
 //
 
 import SwiftUI
 
 @main
-struct TestProjectApp: App {
+struct RandomApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
