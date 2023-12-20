@@ -7,28 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C2AF21782B23B7CA007218DC /* PhotoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF21772B23B7CA007218DC /* PhotoApp.swift */; };
-		C2AF217A2B23B7CA007218DC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF21792B23B7CA007218DC /* ContentView.swift */; };
-		C2AF217C2B23B7CC007218DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF217B2B23B7CC007218DC /* Assets.xcassets */; };
-		C2AF217F2B23B7CC007218DC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C2AF217E2B23B7CC007218DC /* Preview Assets.xcassets */; };
-		C2AF21872B23B818007218DC /* CollectionDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF21862B23B818007218DC /* CollectionDetail.swift */; };
-		C2AF21892B23B836007218DC /* AddCollectionButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF21882B23B836007218DC /* AddCollectionButton.swift */; };
-		C2AF218B2B23B850007218DC /* CreateCollageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2AF218A2B23B850007218DC /* CreateCollageButton.swift */; };
+		77934C892A9DFC91003E087F /* Calmaria_DemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77934C882A9DFC91003E087F /* Calmaria_DemoApp.swift */; };
+		77934C8B2A9DFC91003E087F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77934C8A2A9DFC91003E087F /* ContentView.swift */; };
+		77934C8D2A9DFC94003E087F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77934C8C2A9DFC94003E087F /* Assets.xcassets */; };
+		77934C902A9DFC94003E087F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77934C8F2A9DFC94003E087F /* Preview Assets.xcassets */; };
+		77934C982A9DFE1F003E087F /* VisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77934C972A9DFE1F003E087F /* VisualEffectView.swift */; };
+		77934C9A2A9E0238003E087F /* Number.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77934C992A9E0238003E087F /* Number.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		C2AF21742B23B7CA007218DC /* Photo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Photo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		C2AF21772B23B7CA007218DC /* PhotoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoApp.swift; sourceTree = "<group>"; };
-		C2AF21792B23B7CA007218DC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		C2AF217B2B23B7CC007218DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		C2AF217E2B23B7CC007218DC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C2AF21862B23B818007218DC /* CollectionDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionDetail.swift; sourceTree = "<group>"; };
-		C2AF21882B23B836007218DC /* AddCollectionButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCollectionButton.swift; sourceTree = "<group>"; };
-		C2AF218A2B23B850007218DC /* CreateCollageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateCollageButton.swift; sourceTree = "<group>"; };
+		77934C852A9DFC91003E087F /* Calmaria Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Calmaria Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		77934C882A9DFC91003E087F /* Calmaria_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calmaria_DemoApp.swift; sourceTree = "<group>"; };
+		77934C8A2A9DFC91003E087F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		77934C8C2A9DFC94003E087F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		77934C8F2A9DFC94003E087F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		77934C972A9DFE1F003E087F /* VisualEffectView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VisualEffectView.swift; sourceTree = "<group>"; };
+		77934C992A9E0238003E087F /* Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Number.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C2AF21712B23B7CA007218DC /* Frameworks */ = {
+		77934C822A9DFC91003E087F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,88 +36,87 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C2AF216B2B23B7CA007218DC = {
+		77934C7C2A9DFC91003E087F = {
 			isa = PBXGroup;
 			children = (
-				C2AF21762B23B7CA007218DC /* Photo */,
-				C2AF21752B23B7CA007218DC /* Products */,
+				77934C872A9DFC91003E087F /* Calmaria Demo */,
+				77934C862A9DFC91003E087F /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C2AF21752B23B7CA007218DC /* Products */ = {
+		77934C862A9DFC91003E087F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C2AF21742B23B7CA007218DC /* Photo.app */,
+				77934C852A9DFC91003E087F /* Calmaria Demo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C2AF21762B23B7CA007218DC /* Photo */ = {
+		77934C872A9DFC91003E087F /* Calmaria Demo */ = {
 			isa = PBXGroup;
 			children = (
-				C2AF21772B23B7CA007218DC /* PhotoApp.swift */,
-				C2AF21852B23B802007218DC /* View */,
-				C2AF217B2B23B7CC007218DC /* Assets.xcassets */,
-				C2AF217D2B23B7CC007218DC /* Preview Content */,
+				77934C882A9DFC91003E087F /* Calmaria_DemoApp.swift */,
+				77934C8A2A9DFC91003E087F /* ContentView.swift */,
+				77934C962A9DFE0E003E087F /* Utils */,
+				77934C8C2A9DFC94003E087F /* Assets.xcassets */,
+				77934C8E2A9DFC94003E087F /* Preview Content */,
 			);
-			path = Photo;
+			path = "Calmaria Demo";
 			sourceTree = "<group>";
 		};
-		C2AF217D2B23B7CC007218DC /* Preview Content */ = {
+		77934C8E2A9DFC94003E087F /* Preview Content */ = {
 			isa = PBXGroup;
 			children = (
-				C2AF217E2B23B7CC007218DC /* Preview Assets.xcassets */,
+				77934C8F2A9DFC94003E087F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C2AF21852B23B802007218DC /* View */ = {
+		77934C962A9DFE0E003E087F /* Utils */ = {
 			isa = PBXGroup;
 			children = (
-				C2AF21862B23B818007218DC /* CollectionDetail.swift */,
-				C2AF21792B23B7CA007218DC /* ContentView.swift */,
-				C2AF21882B23B836007218DC /* AddCollectionButton.swift */,
-				C2AF218A2B23B850007218DC /* CreateCollageButton.swift */,
+				77934C972A9DFE1F003E087F /* VisualEffectView.swift */,
+				77934C992A9E0238003E087F /* Number.swift */,
 			);
-			path = View;
+			path = Utils;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C2AF21732B23B7CA007218DC /* Photo */ = {
+		77934C842A9DFC91003E087F /* Calmaria Demo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C2AF21822B23B7CC007218DC /* Build configuration list for PBXNativeTarget "Photo" */;
+			buildConfigurationList = 77934C932A9DFC94003E087F /* Build configuration list for PBXNativeTarget "Calmaria Demo" */;
 			buildPhases = (
-				C2AF21702B23B7CA007218DC /* Sources */,
-				C2AF21712B23B7CA007218DC /* Frameworks */,
-				C2AF21722B23B7CA007218DC /* Resources */,
+				77934C812A9DFC91003E087F /* Sources */,
+				77934C822A9DFC91003E087F /* Frameworks */,
+				77934C832A9DFC91003E087F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Photo;
-			productName = Photo;
-			productReference = C2AF21742B23B7CA007218DC /* Photo.app */;
+			name = "Calmaria Demo";
+			productName = "Calmaria Demo";
+			productReference = 77934C852A9DFC91003E087F /* Calmaria Demo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C2AF216C2B23B7CA007218DC /* Project object */ = {
+		77934C7D2A9DFC91003E087F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1500;
 				LastUpgradeCheck = 1500;
 				TargetAttributes = {
-					C2AF21732B23B7CA007218DC = {
-						CreatedOnToolsVersion = 15.0.1;
+					77934C842A9DFC91003E087F = {
+						CreatedOnToolsVersion = 15.0;
 					};
 				};
 			};
-			buildConfigurationList = C2AF216F2B23B7CA007218DC /* Build configuration list for PBXProject "Photo" */;
+			buildConfigurationList = 77934C802A9DFC91003E087F /* Build configuration list for PBXProject "Calmaria Demo" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,45 +124,44 @@
 				en,
 				Base,
 			);
-			mainGroup = C2AF216B2B23B7CA007218DC;
-			productRefGroup = C2AF21752B23B7CA007218DC /* Products */;
+			mainGroup = 77934C7C2A9DFC91003E087F;
+			productRefGroup = 77934C862A9DFC91003E087F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C2AF21732B23B7CA007218DC /* Photo */,
+				77934C842A9DFC91003E087F /* Calmaria Demo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		C2AF21722B23B7CA007218DC /* Resources */ = {
+		77934C832A9DFC91003E087F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AF217F2B23B7CC007218DC /* Preview Assets.xcassets in Resources */,
-				C2AF217C2B23B7CC007218DC /* Assets.xcassets in Resources */,
+				77934C902A9DFC94003E087F /* Preview Assets.xcassets in Resources */,
+				77934C8D2A9DFC94003E087F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C2AF21702B23B7CA007218DC /* Sources */ = {
+		77934C812A9DFC91003E087F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C2AF217A2B23B7CA007218DC /* ContentView.swift in Sources */,
-				C2AF21892B23B836007218DC /* AddCollectionButton.swift in Sources */,
-				C2AF21872B23B818007218DC /* CollectionDetail.swift in Sources */,
-				C2AF21782B23B7CA007218DC /* PhotoApp.swift in Sources */,
-				C2AF218B2B23B850007218DC /* CreateCollageButton.swift in Sources */,
+				77934C9A2A9E0238003E087F /* Number.swift in Sources */,
+				77934C8B2A9DFC91003E087F /* ContentView.swift in Sources */,
+				77934C892A9DFC91003E087F /* Calmaria_DemoApp.swift in Sources */,
+				77934C982A9DFE1F003E087F /* VisualEffectView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C2AF21802B23B7CC007218DC /* Debug */ = {
+		77934C912A9DFC94003E087F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -228,7 +224,7 @@
 			};
 			name = Debug;
 		};
-		C2AF21812B23B7CC007218DC /* Release */ = {
+		77934C922A9DFC94003E087F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -284,15 +280,15 @@
 			};
 			name = Release;
 		};
-		C2AF21832B23B7CC007218DC /* Debug */ = {
+		77934C942A9DFC94003E087F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Photo/Preview Content\"";
-				DEVELOPMENT_TEAM = 6K49Z76P2U;
+				DEVELOPMENT_ASSET_PATHS = "\"Calmaria Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 76T8HWRHZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -305,7 +301,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MoLab.Photo;
+				PRODUCT_BUNDLE_IDENTIFIER = "apx.Calmaria-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -313,15 +309,15 @@
 			};
 			name = Debug;
 		};
-		C2AF21842B23B7CC007218DC /* Release */ = {
+		77934C952A9DFC94003E087F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"Photo/Preview Content\"";
-				DEVELOPMENT_TEAM = 6K49Z76P2U;
+				DEVELOPMENT_ASSET_PATHS = "\"Calmaria Demo/Preview Content\"";
+				DEVELOPMENT_TEAM = 76T8HWRHZ5;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -334,7 +330,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = MoLab.Photo;
+				PRODUCT_BUNDLE_IDENTIFIER = "apx.Calmaria-Demo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -345,25 +341,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C2AF216F2B23B7CA007218DC /* Build configuration list for PBXProject "Photo" */ = {
+		77934C802A9DFC91003E087F /* Build configuration list for PBXProject "Calmaria Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2AF21802B23B7CC007218DC /* Debug */,
-				C2AF21812B23B7CC007218DC /* Release */,
+				77934C912A9DFC94003E087F /* Debug */,
+				77934C922A9DFC94003E087F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C2AF21822B23B7CC007218DC /* Build configuration list for PBXNativeTarget "Photo" */ = {
+		77934C932A9DFC94003E087F /* Build configuration list for PBXNativeTarget "Calmaria Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C2AF21832B23B7CC007218DC /* Debug */,
-				C2AF21842B23B7CC007218DC /* Release */,
+				77934C942A9DFC94003E087F /* Debug */,
+				77934C952A9DFC94003E087F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C2AF216C2B23B7CA007218DC /* Project object */;
+	rootObject = 77934C7D2A9DFC91003E087F /* Project object */;
 }
